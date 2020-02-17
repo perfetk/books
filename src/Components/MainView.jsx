@@ -21,14 +21,6 @@ class MainView extends PureComponent {
 
     };
 
-    randomIntervalRating = () => {
-       const timeArray = [20000, 30000, 15000, 25000, 20000, 36000, 10000, 15000];
-       const newTime = timeArray[Math.floor(timeArray.length * Math.random())];
-       const timer =  setInterval(this.invokeRandomRating, 2000);
-        clearInterval(timer);
-        setInterval(this.invokeRandomRating, newTime);
-    };
-
     componentDidMount() {
         const { loadData } = this.props;
         loadData(List);
@@ -42,8 +34,6 @@ class MainView extends PureComponent {
                     onClick={this.invokeRandomRating}
                     text="Random Rating"
                 />
-
-                {/*{this.randomIntervalRating()}*/}
             </Fragment>
         )
     }

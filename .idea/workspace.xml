@@ -2,31 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="35cd7386-9abe-4c3b-b0bf-a2c5dacc3766" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Actions/actionTypes.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Actions/updateActions.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/Button/Button.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/Button/Button.sc.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/Button/Button.spec.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/ItemCard/ItemCard.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/ItemCard/ItemCard.sc.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/ItemsList/ItemsList.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/ItemsList/ItemsList.sc.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/MainView.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/MainView.sc.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/Rating/Rating.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/Rating/Rating.sc.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/Rating/Rating.spec.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/StarIcon/StarIcon.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/StarIcon/StarIcon.sc.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Redux/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Redux/loadDataReducer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Redux/updateRatingReducer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/itemsLists.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/store.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/MainView.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/MainView.jsx" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -39,15 +15,16 @@
       <usages-collector id="statistics.lifecycle.project">
         <counts>
           <entry key="project.closed" value="5" />
-          <entry key="project.open.time.1" value="5" />
-          <entry key="project.opened" value="5" />
+          <entry key="project.open.time.1" value="6" />
+          <entry key="project.opened" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="css" value="1" />
+          <entry key="gitignore" value="1" />
           <entry key="js" value="42" />
-          <entry key="json" value="5" />
+          <entry key="json" value="6" />
           <entry key="jsx" value="27" />
           <entry key="svg" value="1" />
         </counts>
@@ -55,9 +32,10 @@
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CSS" value="1" />
-          <entry key="JSON" value="5" />
+          <entry key="JSON" value="6" />
           <entry key="JSX Harmony" value="27" />
           <entry key="JavaScript" value="42" />
+          <entry key="PLAIN_TEXT" value="1" />
           <entry key="SVG" value="1" />
         </counts>
       </usages-collector>
@@ -77,37 +55,13 @@
       </usages-collector>
       <usages-collector id="statistics.js.language.service.starts">
         <counts>
-          <entry key="ESLintLanguageService" value="5" />
+          <entry key="ESLintLanguageService" value="6" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Components/ItemCard/ItemCard.jsx">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="19" column="29" selection-start-line="19" selection-start-column="29" selection-end-line="19" selection-end-column="29" />
-              <folding>
-                <element signature="e#0#45#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Components/ItemsList/ItemsList.jsx">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="23" column="14" selection-start-line="23" selection-start-column="14" selection-end-line="24" selection-end-column="49" />
-              <folding>
-                <element signature="e#85#123#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/itemsLists.json">
           <provider selected="true" editor-type-id="text-editor">
@@ -120,13 +74,23 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Components/MainView.jsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="94">
-              <caret line="29" column="9" selection-start-line="23" selection-start-column="4" selection-end-line="29" selection-end-column="9" />
+            <state relative-caret-position="59">
+              <caret line="21" column="6" selection-start-line="21" selection-start-column="6" selection-end-line="21" selection-end-column="6" />
               <folding>
                 <element signature="e#95#133#0" expanded="true" />
               </folding>
             </state>
           </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/package.json">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
@@ -331,21 +295,23 @@
       <workItem from="1565001729275" duration="551000" />
       <workItem from="1565166379363" duration="430000" />
       <workItem from="1565624115101" duration="160000" />
+      <workItem from="1581937104180" duration="408000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="52346000" />
+    <option name="totallyTimeSpent" value="52754000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="55" y="11" width="1936" height="1056" extended-state="0" />
+    <frame x="55" y="0" width="1936" height="1056" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Designer" order="0" />
       <window_info id="UI Designer" order="1" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info id="Image Layers" order="4" />
-      <window_info content_ui="combo" id="Project" order="5" visible="true" weight="0.26768744" />
+      <window_info content_ui="combo" id="Project" order="5" visible="true" weight="0.27032736" />
       <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Version Control" order="0" weight="0.32943678" />
       <window_info active="true" anchor="bottom" id="Terminal" order="1" visible="true" weight="0.32943678" />
@@ -417,9 +383,6 @@
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/Components/Test/Test.jsx" />
-    <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/App.test.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -582,10 +545,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/Components/MainView.jsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="94">
-          <caret line="29" column="9" selection-start-line="23" selection-start-column="4" selection-end-line="29" selection-end-column="9" />
+        <state relative-caret-position="59">
+          <caret line="21" column="6" selection-start-line="21" selection-start-column="6" selection-end-line="21" selection-end-column="6" />
           <folding>
             <element signature="e#95#133#0" expanded="true" />
           </folding>
